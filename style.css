@@ -17,11 +17,10 @@
 }
 
 header{
-    background-color: transparent;
+    background-color: var(--color-21);
 }
 .nav-menu{
     display: flex;
-    background-color: var(--color-21);
     padding: 1.5rem 6rem;
 }
 .logo {
