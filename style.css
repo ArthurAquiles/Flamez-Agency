@@ -6,7 +6,6 @@
     letter-spacing: 1px;
     margin: 0px;
     padding: 0px;
-    background-color: var(--color-white);
 }
 
 :root {
@@ -14,16 +13,4 @@
     --color-21: #212121;
     --color-white: #fff;
     --color-orange: #da8c38;
-}
-
-header{
-    background-color: var(--color-21);
-}
-.nav-menu{
-    display: flex;
-    padding: 1.5rem 6rem;
-}
-.logo {
-    align-items: center;
-    display: flex;
 }
