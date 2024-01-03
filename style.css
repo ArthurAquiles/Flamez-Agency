@@ -6,7 +6,7 @@
     letter-spacing: 1px;
     margin: 0px;
     padding: 0px;
-    background-color: #212121;
+    background-color: var(--color-white);
 }
 
 :root {
@@ -21,7 +21,7 @@ header{
 }
 .nav-menu{
     display: flex;
-    justify-content: space-between;
+    background-color: var(--color-21);
     padding: 1.5rem 6rem;
 }
 .logo {
