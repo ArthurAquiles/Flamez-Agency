@@ -13,7 +13,8 @@
     --color-black: #000;
     --color-21: #212121;
     --color-white: #fff;
-    --color-orange: #da8c38;
+    --color-orange: #F79326;
+    --color-red: #F1473A;
 }
 nav .nav-menu {
     padding: 0;
@@ -22,8 +23,8 @@ nav .nav-menu {
 
 .logo img{
     display: flex;
-    margin-top: 50px;
-    margin-left: 75px;
+    margin-top: 40px;
+    margin-left: 60px;
     margin-bottom: -100px;
     width: 150px;
     height: auto;
@@ -33,20 +34,41 @@ nav .nav-menu {
     padding: 0;
     width: 550px;
     height: auto;
-    margin: 150px 0px 0px 200px;
+    margin: 160px 0px 0px 250px;
+}
+#p-corpo{
+    margin-bottom: 35px;
 }
 #p-titulo {
     color: var(--color-orange);
+    margin-bottom: 20px;
+    font-size: 32.5px;
+    font-weight: 700;
 }
 #p-paragrafo {
     color: var(--color-white);
+    margin-top:20px;
+
 }
 button {
     font-style: none;
     text-align: center;
     font-weight: 800;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: var(--color-orange);
+    font-size: 20px;
+    width: 80%;
+    height: 150%;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+.btn-1 {
     color: var(--color-white);
-    border-radius: 20px;
-    border-color: var(--color-orange);
-    
+    text-decoration: none;
+    background-color: transparent;
+}
+.p-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px var(--color-orange)
 }
